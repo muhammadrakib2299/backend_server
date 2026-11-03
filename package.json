@@ -1,17 +1,23 @@
 {
   "name": "crud-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Minimal Node.js + Express + MongoDB backend used by Simple-CRUD-Client.",
+  "author": "Md. Rakib (https://devrakib.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/muhammadrakib2299/backend_server.git"
+  },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "node --watch index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
   "type": "commonjs",
   "dependencies": {
     "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
     "express": "^5.2.1",
     "mongodb": "^7.0.0"
   }
